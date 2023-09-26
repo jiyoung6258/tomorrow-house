@@ -1,6 +1,12 @@
-p{
-  color: violet;
+@import './base/fonts';
+
+p {
   display: block;
+  padding: 1px;
   font-size: large;
-  padding: 87px;
+  color: rgb(245, 193, 245);
+}
+
+* {
+  font-family: 'Noto Sans KR', sans-serif;
 }
